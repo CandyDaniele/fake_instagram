@@ -5,14 +5,18 @@ const Usuario = (sequelize, DataType) => {
             type: DataType.INTEGER, 
             primaryKey: true, 
             autoIncrement: true, 
-            allowNull: false }, 
-            nome: { type: DataType.STRING, 
+            allowNull: false 
+        }, 
+        nome: { 
+            type: DataType.STRING, 
             allowNull: false 
         }, 
         email: {
             type: DataType.STRING, 
-            allowNull: false }, 
-            senha: { type: DataType.STRING, 
+            allowNull: false 
+        },
+        senha: { 
+            type: DataType.STRING, 
             allowNull: false 
         } 
         }, { 
